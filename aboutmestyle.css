@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "Noto Sans TC";
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1550945233-716f16384ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-repeat: no-repeat; /* 這行 code 讓 圖片不會重複出現 */
+  background-size: cover;
+}
+
+.panel{
+  width:50vw;
+  height:40vh;
+  background-color: rgba(255,255,255,0.8);
+  display:flex; 
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  border-radius:10px;
+  padding:40px;
+  
+}
+
+.selfie{
+  height:100px;
+  width:100px;
+  border-radius:100%;
+  background-image: url("https://i.imgur.com/h7EKnrZ.jpg");
+  background-size: cover;
+  
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.about {
+  height: 100vh;
+  width: 100vh;
+  border-radius:100%;
+  background-image: url("https://i.imgur.com/86rCD51.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about p {
+  border: none;
+  height: 50px;
+  color: rgb(250, 232, 232);
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.content-p {
+  display: flex;
+  flex-direction: column;
+  margin:30px;
+}
+
+.experience {
+  height: 70vh;
+  background-color: AliceBlue;
+}
+.experience h3{
+  margin-bottom:30px;
+}
+.experience p{
+  margin:10px;
+}
+
+.photos{
+  height:100vh;
+}
+
+.photo{
+  width:200px;
+  height:200px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:30px;
+}
+
+.photo-wrapper {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.photo1{
+  background-image: url("https://i.imgur.com/idKHi5J.jpg");
+}
+.photo2{
+  background-image: url("https://i.imgur.com/iKiP2Nq.jpg");
+}
+.photo3{
+  background-image: url("https://i.imgur.com/K4Rg8yW.jpg");
+}
+.contact {
+  height: 50vh;
+  background-color:#204060;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+.contact h5{
+  margin-top:30px;
+}
+.contact a{
+  color:white;
+}
